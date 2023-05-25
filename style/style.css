@@ -14,19 +14,122 @@ h1{
     color: #444;
 }
 .rouge{
-    color: red;
+    color: rgb(255, 145, 0);
+}
+.conteneur{
+   
+
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: #444;
+    margin-right: 10px;
+}
+
+h4{
+    font-size: 24px;
+    color: #444;
+}
+p{
+    line-height: 20px;
+    color: #777;
 }
 
 /*header*/
 
 header{
-    height: 300px;
+    height:120px;
    
 }
 header h1{
     float: left;
+    margin-top: 32px;
+
     
 }
 header nav{
     float: right;
+    margin-top: 50px;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* partie main image*/
+
+#image-fond{
+    height: 580px;
+    background: url('/fichiers/main.jpg') center ;
+    background-repeat: no-repeat;
+
+}
+
+#image-fond h2{
+    font-weight: normal;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    font-size: 90px;
+    color: #444;
+}
+.botton{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    color: aliceblue;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.botton:hover{
+    background-color: rgb(17, 255, 0);
+}
+
+/*les steps */
+#steps ul{
+    margin: 75px 0;
+    
+}
+#steps ul li{
+    width: 300px;
+    float: left;
+   
+    
+    padding-top: 140px;
+    margin-right:10 px;
+
+}
+#steps h4{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#steps-1{
+    background: url("/fichiers/steps-icon-1.png") no-repeat;
+
+}
+#steps-2{
+    background: url("/fichiers/steps-icon-2.png") no-repeat;
+
+    
+}
+#steps-3{
+    background: url("/fichiers/steps-icon-3.png") no-repeat;
+
+    
 }
