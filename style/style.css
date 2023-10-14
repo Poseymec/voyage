@@ -83,7 +83,7 @@ header nav ul li a{
 
 #image-fond{
     height: 580px;
-    background: url('/fichiers/image1.png') center ;
+    background: url('../fichiers/image1.png') center ;
     background-repeat: no-repeat;
 
 }
@@ -135,16 +135,16 @@ header nav ul li a{
 }
 
 #steps-1{
-    background: url("/fichiers/steps-icon-1.png") no-repeat;
+    background: url("../fichiers/steps-icon-1.png") no-repeat;
 
 }
 #steps-2{
-    background: url("/fichiers/steps-icon-2.png") no-repeat;
+    background: url("../fichiers/steps-icon-2.png") no-repeat;
 
     
 }
 #steps-3{
-    background: url("/fichiers/steps-icon-3.png") no-repeat;
+    background: url("../fichiers/steps-icon-3.png") no-repeat;
 
     
 }
@@ -508,7 +508,7 @@ article h4{
 
 
 
-    
+}   
 
 
  @media  (max-width: 636px){
