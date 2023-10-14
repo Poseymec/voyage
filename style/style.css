@@ -6,6 +6,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
 }
 
 h1{
@@ -511,12 +514,12 @@ article h4{
 }   
 
 
- @media  (max-width: 636px){
+ @media  (max-width: 640px){
     /* partie main image*/
 
 #image-fond{
     height: 480px;
-    background: url('/fichiers/image1.png') center ;
+    background: url('../fichiers/image11.png') center ;
     background-repeat: no-repeat;
     margin-top: 20px;
 
