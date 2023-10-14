@@ -514,7 +514,8 @@ article h4{
 }   
 
 
- @media  (max-width: 640px){
+ @media  (max-width: 645px){
+
     /* partie main image*/
 
 #image-fond{
@@ -530,7 +531,7 @@ article h4{
     text-transform: lowercase;
     text-align: center;
     padding: 150px 0 40px 0;
-    font-size: 50px;
+    font-size: 40px;
     color: #444;
 }
 .botton{
